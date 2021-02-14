@@ -1,0 +1,12 @@
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:[m[K In constructor ‘[01m[KMinimalChat::MinimalChat()[m[K’:
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   40 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:41:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   41 |       "topic", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Erro 1
+make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Erro 2
+make[1]: ** Esperando que outros processos terminem.
+make: *** [Makefile:160: all] Erro 2

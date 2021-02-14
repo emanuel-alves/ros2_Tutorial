@@ -1,0 +1,8 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring incomplete, errors occurred!
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".

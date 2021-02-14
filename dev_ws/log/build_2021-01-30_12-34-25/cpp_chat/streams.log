@@ -1,0 +1,41 @@
+[0.053s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8
+[0.112s] [35m[1mScanning dependencies of target pub[0m
+[0.145s] [ 33%] Built target chat
+[0.154s] [ 66%] Built target sub
+[0.187s] [ 83%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[1.669s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.669s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/pub.cpp:48:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Logger::Logger(std::string*)[m[K’
+[1.669s]    48 |     auto nullLog = rclcpp::Logger(&str[01;31m[K)[m[K;
+[1.670s]       |                                       [01;31m[K^[m[K
+[1.670s] In file included from [01m[K/opt/ros2/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.670s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.670s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.670s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.670s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.670s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.671s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.671s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.671s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.671s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.671s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.671s]                  from [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/pub.cpp:20[m[K:
+[1.672s] [01m[K/opt/ros2/foxy/include/rclcpp/logger.hpp:102:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger::Logger(const rclcpp::Logger&)[m[K’
+[1.672s]   102 |   [01;36m[KLogger[m[K(const Logger &) = default;
+[1.672s]       |   [01;36m[K^~~~~~[m[K
+[1.672s] [01m[K/opt/ros2/foxy/include/rclcpp/logger.hpp:102:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kconst rclcpp::Logger&[m[K’
+[1.672s]   102 |   Logger([01;36m[Kconst Logger &[m[K) = default;
+[1.672s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.672s] [01m[K/opt/ros2/foxy/include/rclcpp/logger.hpp:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger::Logger(const string&)[m[K’
+[1.673s]    95 |   explicit [01;36m[KLogger[m[K(const std::string & name)
+[1.673s]       |            [01;36m[K^~~~~~[m[K
+[1.673s] [01m[K/opt/ros2/foxy/include/rclcpp/logger.hpp:95:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[1.673s]    95 |   explicit Logger([01;36m[Kconst std::string & name[m[K)
+[1.673s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.673s] [01m[K/opt/ros2/foxy/include/rclcpp/logger.hpp:88:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger::Logger()[m[K’
+[1.673s]    88 |   [01;36m[KLogger[m[K()
+[1.673s]       |   [01;36m[K^~~~~~[m[K
+[1.674s] [01m[K/opt/ros2/foxy/include/rclcpp/logger.hpp:88:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.707s] make[2]: *** [CMakeFiles/pub.dir/build.make:82: CMakeFiles/pub.dir/src/pub.cpp.o] Erro 1
+[2.709s] make[1]: *** [CMakeFiles/Makefile2:128: CMakeFiles/pub.dir/all] Erro 2
+[2.711s] make: *** [Makefile:160: all] Erro 2
+[2.714s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8

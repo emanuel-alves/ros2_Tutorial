@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000940] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001951] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002115] (cpp_chat) JobQueued: {'identifier': 'cpp_chat', 'dependencies': OrderedDict()}
+[0.002360] (cpp_chat) JobStarted: {'identifier': 'cpp_chat'}
+[0.026670] (cpp_chat) JobProgress: {'identifier': 'cpp_chat', 'progress': 'cmake'}
+[0.027820] (cpp_chat) JobProgress: {'identifier': 'cpp_chat', 'progress': 'build'}
+[0.028656] (cpp_chat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat', '--', '-j8', '-l8'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/5008,unix/emanuel:/tmp/.ICE-unix/5008'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ADJEY0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68b370ad_2815_4d08_8c62_ca8b5a4dd9c5'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.087057] (cpp_chat) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub\x1b[0m\n'}
+[0.099376] (-) TimerEvent: {}
+[0.104252] (cpp_chat) StdoutLine: {'line': b'[ 66%] Built target pub\n'}
+[0.104768] (cpp_chat) StdoutLine: {'line': b'[ 66%] Built target chat\n'}
+[0.108755] (cpp_chat) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.199474] (-) TimerEvent: {}
+[0.299828] (-) TimerEvent: {}
+[0.400191] (-) TimerEvent: {}
+[0.500554] (-) TimerEvent: {}
+[0.601408] (-) TimerEvent: {}
+[0.703539] (-) TimerEvent: {}
+[0.804076] (-) TimerEvent: {}
+[0.904553] (-) TimerEvent: {}
+[1.005176] (-) TimerEvent: {}
+[1.105703] (-) TimerEvent: {}
+[1.206219] (-) TimerEvent: {}
+[1.306823] (-) TimerEvent: {}
+[1.407369] (-) TimerEvent: {}
+[1.507936] (-) TimerEvent: {}
+[1.601462] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.602217] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:42:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger::Logger(const string&)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[1.602408] (cpp_chat) StderrLine: {'line': b'   42 |     rclcpp::Logger nullLog("minimal_subscriber"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.602570] (cpp_chat) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.602716] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.602871] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.603015] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.603158] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.603301] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.603443] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.603585] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.603726] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.603867] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.604092] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.604233] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.604374] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.604514] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logger.hpp:95:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[1.604655] (cpp_chat) StderrLine: {'line': b'   95 |   explicit \x1b[01;36m\x1b[KLogger\x1b[m\x1b[K(const std::string & name)\n'}
+[1.604825] (cpp_chat) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.607988] (-) TimerEvent: {}
+[1.708267] (-) TimerEvent: {}
+[1.808802] (-) TimerEvent: {}
+[1.909309] (-) TimerEvent: {}
+[2.009826] (-) TimerEvent: {}
+[2.110595] (-) TimerEvent: {}
+[2.211123] (-) TimerEvent: {}
+[2.311701] (-) TimerEvent: {}
+[2.412120] (-) TimerEvent: {}
+[2.512575] (-) TimerEvent: {}
+[2.613055] (-) TimerEvent: {}
+[2.713493] (-) TimerEvent: {}
+[2.813939] (-) TimerEvent: {}
+[2.914449] (-) TimerEvent: {}
+[3.014879] (-) TimerEvent: {}
+[3.115308] (-) TimerEvent: {}
+[3.215797] (-) TimerEvent: {}
+[3.316334] (-) TimerEvent: {}
+[3.417397] (-) TimerEvent: {}
+[3.508942] (cpp_chat) StderrLine: {'line': b'make[2]: *** [CMakeFiles/sub.dir/build.make:82: CMakeFiles/sub.dir/src/sub.cpp.o] Erro 1\n'}
+[3.510990] (cpp_chat) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/sub.dir/all] Erro 2\n'}
+[3.512497] (cpp_chat) StderrLine: {'line': b'make: *** [Makefile:160: all] Erro 2\n'}
+[3.514228] (cpp_chat) CommandEnded: {'returncode': 2}
+[3.517539] (-) TimerEvent: {}
+[3.618221] (-) TimerEvent: {}
+[3.661771] (cpp_chat) JobEnded: {'identifier': 'cpp_chat', 'rc': 2}
+[3.674349] (-) EventReactorShutdown: {}

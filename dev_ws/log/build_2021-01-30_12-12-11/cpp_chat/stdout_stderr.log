@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target chat[0m
+[35m[1mScanning dependencies of target sub[0m
+[ 33%] Built target pub
+[ 50%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:41:58:[m[K [01;35m[Kwarning: [m[Kconstante de caractere multi-caractere [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+   41 |     cout << '(' <<typesOrigin[int(msg->data.front())] << [01;35m[K'->'[m[K << this->get_name() << ')'
+      |                                                          [01;35m[K^~~~[m[K
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:25:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kusing[m[K’
+   25 | [01;31m[Kusing[m[K std::placeholders::_1;
+      | [01;31m[K^~~~~[m[K
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Ktopic_callback[m[K’
+   38 |   [01;31m[Kconst[m[K char
+      |   [01;31m[K^~~~~[m[K
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:34:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KMinimalSubscriber[m[K’
+   34 |         "topic", 10, std::bind(&MinimalSubscriber::[01;31m[Ktopic_callback[m[K, this, _1));
+      |                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:34:74:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   34 |         "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, [01;31m[K_1[m[K));
+      |                                                                          [01;31m[K^~[m[K
+      |                                                                          [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:15[m[K:
+[01m[K/usr/include/c++/10.2.0/functional:221:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  221 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/sub.dir/build.make:82: CMakeFiles/sub.dir/src/sub.cpp.o] Erro 1
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/sub.dir/all] Erro 2
+make[1]: ** Esperando que outros processos terminem.
+[ 83%] [32m[1mLinking CXX executable chat[0m
+[ 83%] Built target chat
+make: *** [Makefile:160: all] Erro 2

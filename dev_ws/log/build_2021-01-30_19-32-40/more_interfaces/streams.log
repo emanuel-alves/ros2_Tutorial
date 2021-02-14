@@ -1,0 +1,39 @@
+[0.035s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces -- -j8 -l8
+[0.065s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") 
+[0.096s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.306s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.311s] -- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.476s] -- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+[0.565s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+[0.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.567s] -- Looking for pthread.h
+[0.749s] -- Looking for pthread.h - found
+[0.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.946s] -- Looking for pthread_create in pthreads
+[1.020s] -- Looking for pthread_create in pthreads - not found
+[1.020s] -- Looking for pthread_create in pthread
+[1.105s] -- Looking for pthread_create in pthread - found
+[1.107s] -- Found Threads: TRUE  
+[1.280s] -- Found PythonInterp: /usr/bin/python3 (found version "3.9.1") 
+[1.413s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros2/foxy/share/ament_cmake_ros/cmake)
+[1.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.580s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3.5") 
+[1.580s] -- Found python_cmake_module: 0.8.0 (/opt/ros2/foxy/share/python_cmake_module/cmake)
+[1.613s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.613s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.9
+[1.613s] -- Using PYTHON_LIBRARIES: /usr/lib/libpython3.9.so
+[1.745s] -- Using numpy include directory: /usr/lib/python3.9/site-packages/numpy/core/include
+[1.752s] CMake Error at CMakeLists.txt:29 (add_target_dependencies):
+[1.753s]   Unknown CMake command "add_target_dependencies".
+[1.753s] 
+[1.753s] 
+[1.753s] -- Configuring incomplete, errors occurred!
+[1.754s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[1.754s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+[1.761s] make: *** [Makefile:767: cmake_check_build_system] Erro 1
+[1.762s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces -- -j8 -l8

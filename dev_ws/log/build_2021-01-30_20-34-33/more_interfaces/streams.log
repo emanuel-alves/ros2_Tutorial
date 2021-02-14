@@ -1,0 +1,10 @@
+[0.037s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces -- -j8 -l8
+[0.068s] CMake Error at CMakeLists.txt:46:
+[0.069s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.069s] 
+[0.069s] 
+[0.069s] -- Configuring incomplete, errors occurred!
+[0.069s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[0.069s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+[0.071s] make: *** [Makefile:811: cmake_check_build_system] Erro 1
+[0.072s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces -- -j8 -l8

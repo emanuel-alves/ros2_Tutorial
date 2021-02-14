@@ -1,0 +1,4 @@
+Invoking command in '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces -- -j8 -l8
+Invoked command in '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces -- -j8 -l8
+Invoking command in '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces
+Invoked command in '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces

@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000830] (-) JobUnselected: {'identifier': 'cpp_chat'}
+[0.001325] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002900] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003090] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003176] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003232] (cpp_interfaces) JobQueued: {'identifier': 'cpp_interfaces', 'dependencies': OrderedDict([('tutorial_interfaces', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces')])}
+[0.003304] (cpp_interfaces) JobStarted: {'identifier': 'cpp_interfaces'}
+[0.032594] (cpp_interfaces) JobProgress: {'identifier': 'cpp_interfaces', 'progress': 'cmake'}
+[0.033611] (cpp_interfaces) JobProgress: {'identifier': 'cpp_interfaces', 'progress': 'build'}
+[0.034327] (cpp_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces', '--', '-j8', '-l8'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/5008,unix/emanuel:/tmp/.ICE-unix/5008'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ADJEY0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68b370ad_2815_4d08_8c62_ca8b5a4dd9c5'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('RCUTILS_CONSOLE_STDOUT_LINE_BUFFERED', '1'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.063800] (cpp_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)\n'}
+[0.093391] (cpp_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.097720] (-) TimerEvent: {}
+[0.197978] (-) TimerEvent: {}
+[0.298374] (-) TimerEvent: {}
+[0.304382] (cpp_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)\n'}
+[0.328638] (cpp_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.331168] (cpp_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)\n'}
+[0.398487] (-) TimerEvent: {}
+[0.456691] (cpp_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.492268] (cpp_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.493551] (cpp_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.498580] (-) TimerEvent: {}
+[0.598896] (-) TimerEvent: {}
+[0.602755] (cpp_interfaces) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.1 (/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.613030] (cpp_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)\n'}
+[0.687176] (cpp_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.695242] (cpp_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.695723] (cpp_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.695891] (cpp_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.698953] (-) TimerEvent: {}
+[0.702964] (cpp_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.703245] (cpp_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.705971] (cpp_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.714238] (cpp_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.714466] (cpp_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.715764] (cpp_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.717241] (cpp_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.743428] (cpp_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.747086] (cpp_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces\n'}
+[0.779775] (cpp_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[0.780645] (cpp_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.781489] (cpp_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service\x1b[0m\n'}
+[0.782494] (cpp_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.799081] (-) TimerEvent: {}
+[0.813235] (cpp_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.813595] (cpp_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.823911] (cpp_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o\x1b[0m\n'}
+[0.825055] (cpp_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[0.899180] (-) TimerEvent: {}
+[0.999553] (-) TimerEvent: {}
+[1.099969] (-) TimerEvent: {}
+[1.200384] (-) TimerEvent: {}
+[1.300880] (-) TimerEvent: {}
+[1.401337] (-) TimerEvent: {}
+[1.501761] (-) TimerEvent: {}
+[1.602206] (-) TimerEvent: {}
+[1.702644] (-) TimerEvent: {}
+[1.803118] (-) TimerEvent: {}
+[1.903554] (-) TimerEvent: {}
+[2.004002] (-) TimerEvent: {}
+[2.104440] (-) TimerEvent: {}
+[2.204898] (-) TimerEvent: {}
+[2.305341] (-) TimerEvent: {}
+[2.405805] (-) TimerEvent: {}
+[2.506230] (-) TimerEvent: {}
+[2.522186] (cpp_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.522706] (cpp_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/src/client.cpp:39:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing FutureReturnCode = enum class rclcpp::FutureReturnCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use rclcpp::FutureReturnCode instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.523037] (cpp_interfaces) StderrLine: {'line': b'   39 |     rclcpp::executor::FutureReturnCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K)\n'}
+[2.523326] (cpp_interfaces) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.523626] (cpp_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[2.523915] (cpp_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.524201] (cpp_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.524480] (cpp_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.524806] (cpp_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/src/client.cpp:1\x1b[m\x1b[K:\n'}
+[2.525108] (cpp_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/future_return_code.hpp:48:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.525402] (cpp_interfaces) StderrLine: {'line': b'   48 | using \x1b[01;36m\x1b[KFutureReturnCode\x1b[m\x1b[K [[deprecated("use rclcpp::FutureReturnCode instead")]] = FutureReturnCode;\n'}
+[2.525723] (cpp_interfaces) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.606357] (-) TimerEvent: {}
+[2.706795] (-) TimerEvent: {}
+[2.807206] (-) TimerEvent: {}
+[2.907650] (-) TimerEvent: {}
+[3.008137] (-) TimerEvent: {}
+[3.108630] (-) TimerEvent: {}
+[3.209120] (-) TimerEvent: {}
+[3.309603] (-) TimerEvent: {}
+[3.410108] (-) TimerEvent: {}
+[3.510680] (-) TimerEvent: {}
+[3.611434] (-) TimerEvent: {}
+[3.693317] (cpp_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable service\x1b[0m\n'}
+[3.711516] (-) TimerEvent: {}
+[3.811960] (-) TimerEvent: {}
+[3.912533] (-) TimerEvent: {}
+[3.984263] (cpp_interfaces) StdoutLine: {'line': b'[ 62%] Built target service\n'}
+[4.012631] (-) TimerEvent: {}
+[4.113115] (-) TimerEvent: {}
+[4.194902] (cpp_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[4.213227] (-) TimerEvent: {}
+[4.313613] (-) TimerEvent: {}
+[4.414223] (-) TimerEvent: {}
+[4.450353] (cpp_interfaces) StdoutLine: {'line': b'[ 75%] Built target client\n'}
+[4.514367] (-) TimerEvent: {}
+[4.614844] (-) TimerEvent: {}
+[4.704261] (cpp_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.714947] (-) TimerEvent: {}
+[4.815313] (-) TimerEvent: {}
+[4.915770] (-) TimerEvent: {}
+[4.968625] (cpp_interfaces) StdoutLine: {'line': b'[ 87%] Built target talker\n'}
+[5.015867] (-) TimerEvent: {}
+[5.116254] (-) TimerEvent: {}
+[5.216605] (-) TimerEvent: {}
+[5.317048] (-) TimerEvent: {}
+[5.418140] (-) TimerEvent: {}
+[5.518497] (-) TimerEvent: {}
+[5.618819] (-) TimerEvent: {}
+[5.719194] (-) TimerEvent: {}
+[5.819550] (-) TimerEvent: {}
+[5.919927] (-) TimerEvent: {}
+[6.020303] (-) TimerEvent: {}
+[6.120687] (-) TimerEvent: {}
+[6.221068] (-) TimerEvent: {}
+[6.321450] (-) TimerEvent: {}
+[6.421830] (-) TimerEvent: {}
+[6.522372] (-) TimerEvent: {}
+[6.686578] (-) TimerEvent: {}
+[6.743445] (cpp_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.786673] (-) TimerEvent: {}
+[6.887048] (-) TimerEvent: {}
+[6.987664] (-) TimerEvent: {}
+[7.111430] (-) TimerEvent: {}
+[7.159186] (cpp_interfaces) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.167818] (cpp_interfaces) CommandEnded: {'returncode': 0}
+[7.211578] (-) TimerEvent: {}
+[7.272558] (cpp_interfaces) JobProgress: {'identifier': 'cpp_interfaces', 'progress': 'install'}
+[7.281751] (cpp_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/5008,unix/emanuel:/tmp/.ICE-unix/5008'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ADJEY0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68b370ad_2815_4d08_8c62_ca8b5a4dd9c5'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('RCUTILS_CONSOLE_STDOUT_LINE_BUFFERED', '1'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[7.290778] (cpp_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.291467] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/talker\n'}
+[7.298491] (cpp_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/talker" to ""\n'}
+[7.299266] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/listener\n'}
+[7.311654] (-) TimerEvent: {}
+[7.314819] (cpp_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/listener" to ""\n'}
+[7.315145] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/service\n'}
+[7.318298] (cpp_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/service" to ""\n'}
+[7.318601] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/client\n'}
+[7.322795] (cpp_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/client" to ""\n'}
+[7.323111] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/ament_index/resource_index/package_run_dependencies/cpp_interfaces\n'}
+[7.323414] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/ament_index/resource_index/parent_prefix_path/cpp_interfaces\n'}
+[7.323649] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/ament_prefix_path.sh\n'}
+[7.323897] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.324186] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/path.sh\n'}
+[7.324420] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/path.dsv\n'}
+[7.324950] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.bash\n'}
+[7.325184] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.sh\n'}
+[7.325415] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.zsh\n'}
+[7.325651] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.dsv\n'}
+[7.326103] (cpp_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/package.dsv\n'}
+[7.326916] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/ament_index/resource_index/packages/cpp_interfaces\n'}
+[7.327138] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/cmake/cpp_interfacesConfig.cmake\n'}
+[7.327343] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/cmake/cpp_interfacesConfig-version.cmake\n'}
+[7.327545] (cpp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/package.xml\n'}
+[7.328805] (cpp_interfaces) CommandEnded: {'returncode': 0}
+[7.411783] (-) TimerEvent: {}
+[7.494223] (cpp_interfaces) JobEnded: {'identifier': 'cpp_interfaces', 'rc': 0}
+[7.494989] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib/python3.9/site-packages",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib/python3.9/site-packages",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib/python3.9/site-packages",
+        "/opt/ros2/foxy/lib/python3.9/site-packages"
+    ]
+}

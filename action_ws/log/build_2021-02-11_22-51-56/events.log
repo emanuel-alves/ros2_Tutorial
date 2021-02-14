@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.001389] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.001797] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.043757] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.063526] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[0.067365] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces', '--', '-j8', '-l8'], 'cwd': '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('USER', 'emanuel'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/emanuel'), ('OLDPWD', '/mnt/d/projetos/tutorial_ros2/action_ws/src'), ('LESS', '-R'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'emanuel'), ('WSL_INTEROP', '/run/WSL/1127_interop'), ('NAME', 'DESKTOP-RAHG23Q'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/LLVM/bin:/mnt/c/Users/emanu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/emanu/AppData/Local/Programs/Microsoft VS Code/bin'), ('WT_SESSION', '670c0ef4-cb7c-4f72-bce4-7774541a4f2d'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/zsh'), ('P9K_SSH', '0'), ('PWD', '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.103867] (-) TimerEvent: {}
+[0.204424] (-) TimerEvent: {}
+[0.304995] (-) TimerEvent: {}
+[0.318830] (action_tutorials_interfaces) StdoutLine: {'line': b'[  3%] Built target action_tutorials_interfaces__cpp\n'}
+[0.399831] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] Built target action_tutorials_interfaces__rosidl_generator_c\n'}
+[0.405140] (-) TimerEvent: {}
+[0.474551] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 25%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp\n'}
+[0.484642] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 32%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.505244] (-) TimerEvent: {}
+[0.531065] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.598500] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_c\n'}
+[0.605369] (-) TimerEvent: {}
+[0.621802] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.705486] (-) TimerEvent: {}
+[0.719648] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.794647] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces\n'}
+[0.805632] (-) TimerEvent: {}
+[0.905836] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_tutorials_interfaces__py\n'}
+[0.906657] (-) TimerEvent: {}
+[1.007090] (-) TimerEvent: {}
+[1.050497] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_tutorials_interfaces__python\n'}
+[1.107224] (-) TimerEvent: {}
+[1.170745] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.171942] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.173486] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.207347] (-) TimerEvent: {}
+[1.272564] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[1.307521] (-) TimerEvent: {}
+[1.365149] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'install'}
+[1.381633] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces'], 'cwd': '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('USER', 'emanuel'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/emanuel'), ('OLDPWD', '/mnt/d/projetos/tutorial_ros2/action_ws/src'), ('LESS', '-R'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'emanuel'), ('WSL_INTEROP', '/run/WSL/1127_interop'), ('NAME', 'DESKTOP-RAHG23Q'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/LLVM/bin:/mnt/c/Users/emanu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/emanu/AppData/Local/Programs/Microsoft VS Code/bin'), ('WT_SESSION', '670c0ef4-cb7c-4f72-bce4-7774541a4f2d'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/zsh'), ('P9K_SSH', '0'), ('PWD', '/mnt/d/projetos/tutorial_ros2/action_ws/build/action_tutorials_interfaces'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.396327] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.407559] (-) TimerEvent: {}
+[1.419005] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces\n'}
+[1.432036] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[1.450781] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[1.470999] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[1.497670] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.c\n'}
+[1.507658] (-) TimerEvent: {}
+[1.519411] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.h\n'}
+[1.546981] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.h\n'}
+[1.567859] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.h\n'}
+[1.585728] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.h\n'}
+[1.597795] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[1.607755] (-) TimerEvent: {}
+[1.621600] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.637534] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh\n'}
+[1.657061] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv\n'}
+[1.690260] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so\n'}
+[1.707864] (-) TimerEvent: {}
+[1.726077] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[1.747719] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[1.767442] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[1.793660] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[1.806427] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[1.807963] (-) TimerEvent: {}
+[1.831097] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.871495] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.905436] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[1.908084] (-) TimerEvent: {}
+[1.923101] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[1.947183] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[1.972816] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/dds_fastrtps\n'}
+[2.001337] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.008211] (-) TimerEvent: {}
+[2.016194] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[2.041456] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.077719] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.108353] (-) TimerEvent: {}
+[2.112567] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[2.130967] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[2.152462] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[2.178736] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[2.198811] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.c\n'}
+[2.208445] (-) TimerEvent: {}
+[2.212918] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[2.237594] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.272560] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.308586] (-) TimerEvent: {}
+[2.329198] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so\n'}
+[2.368935] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[2.385615] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[2.406069] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[2.408667] (-) TimerEvent: {}
+[2.436802] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[2.459722] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[2.480088] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[2.497775] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.hpp\n'}
+[2.508302] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[2.509091] (-) TimerEvent: {}
+[2.525784] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[2.548730] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[2.575700] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.596003] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[2.609194] (-) TimerEvent: {}
+[2.635304] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.694197] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.709296] (-) TimerEvent: {}
+[2.737464] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh\n'}
+[2.757319] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv\n'}
+[2.777690] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py\n'}
+[2.809414] (-) TimerEvent: {}
+[2.853953] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action\n'}
+[2.881017] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci.py\n'}
+[2.901852] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci_s.c\n'}
+[2.909530] (-) TimerEvent: {}
+[2.924429] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/__init__.py\n'}
+[2.985453] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.009661] (-) TimerEvent: {}
+[3.076466] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.109844] (-) TimerEvent: {}
+[3.179759] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.210038] (-) TimerEvent: {}
+[3.274051] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so\n'}
+[3.310802] (-) TimerEvent: {}
+[3.353228] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl\n'}
+[3.388081] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action\n'}
+[3.410859] (-) TimerEvent: {}
+[3.431521] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces\n'}
+[3.501448] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces\n'}
+[3.511053] (-) TimerEvent: {}
+[3.546843] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh\n'}
+[3.592756] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.611323] (-) TimerEvent: {}
+[3.645625] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh\n'}
+[3.711499] (-) TimerEvent: {}
+[3.746473] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv\n'}
+[3.812303] (-) TimerEvent: {}
+[3.814152] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash\n'}
+[3.892010] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh\n'}
+[3.913391] (-) TimerEvent: {}
+[3.939517] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh\n'}
+[4.006214] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv\n'}
+[4.013372] (-) TimerEvent: {}
+[4.076037] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv\n'}
+[4.114019] (-) TimerEvent: {}
+[4.215057] (-) TimerEvent: {}
+[4.248496] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces\n'}
+[4.294195] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.315157] (-) TimerEvent: {}
+[4.324816] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.370095] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.395688] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.415265] (-) TimerEvent: {}
+[4.442559] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.468330] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.506581] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.515394] (-) TimerEvent: {}
+[4.558556] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.587971] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.615505] (-) TimerEvent: {}
+[4.630345] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.660442] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.677707] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.695067] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.712083] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.715603] (-) TimerEvent: {}
+[4.734398] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.754658] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.771126] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.787444] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.803715] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake\n'}
+[4.815708] (-) TimerEvent: {}
+[4.816585] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake\n'}
+[4.838561] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/projetos/tutorial_ros2/action_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml\n'}
+[4.859090] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[4.915848] (-) TimerEvent: {}
+[5.016333] (-) TimerEvent: {}
+[5.116820] (-) TimerEvent: {}
+[5.217293] (-) TimerEvent: {}
+[5.317829] (-) TimerEvent: {}
+[5.418400] (-) TimerEvent: {}
+[5.519084] (-) TimerEvent: {}
+[5.619672] (-) TimerEvent: {}
+[5.720140] (-) TimerEvent: {}
+[5.820575] (-) TimerEvent: {}
+[5.859386] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 0}
+[5.874633] (-) EventReactorShutdown: {}

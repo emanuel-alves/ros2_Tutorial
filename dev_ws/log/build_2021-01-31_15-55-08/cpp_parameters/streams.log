@@ -1,0 +1,37 @@
+[0.027s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters -- -j8 -l8
+[0.052s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.321s] -- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+[0.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.652s] -- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)
+[0.743s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.753s] -- Configured cppcheck include dirs: 
+[0.754s] -- Configured cppcheck exclude dirs and/or files: 
+[0.762s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.763s] -- Configured cpplint exclude dirs and/or files: 
+[0.764s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.767s] -- Added test 'lint_cmake' to check CMake code style
+[0.769s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.778s] -- Added test 'uncrustify' to check C / C++ code style
+[0.778s] -- Configured uncrustify additional arguments: 
+[0.780s] -- Added test 'xmllint' to check XML markup files
+[0.873s] -- Configuring done
+[0.939s] -- Generating done
+[0.955s] -- Build files have been written to: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters
+[1.052s] [100%] Built target parameters_node
+[1.063s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters -- -j8 -l8
+[1.140s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters
+[1.146s] -- Install configuration: ""
+[1.146s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameters_node
+[1.147s] CMake Error at cmake_install.cmake:66 (file):
+[1.148s]   file INSTALL cannot find
+[1.148s]   "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters/launch": No
+[1.149s]   such file or directory.
+[1.149s] 
+[1.151s] 
+[1.152s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters' returned '1': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters

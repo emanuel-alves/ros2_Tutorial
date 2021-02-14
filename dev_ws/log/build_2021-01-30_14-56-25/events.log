@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000508] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001912] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002081] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002212] (cpp_chat) JobQueued: {'identifier': 'cpp_chat', 'dependencies': OrderedDict()}
+[0.002313] (cpp_chat) JobStarted: {'identifier': 'cpp_chat'}
+[0.026443] (cpp_chat) JobProgress: {'identifier': 'cpp_chat', 'progress': 'cmake'}
+[0.027507] (cpp_chat) JobProgress: {'identifier': 'cpp_chat', 'progress': 'build'}
+[0.028149] (cpp_chat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat', '--', '-j8', '-l8'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/5008,unix/emanuel:/tmp/.ICE-unix/5008'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ADJEY0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68b370ad_2815_4d08_8c62_ca8b5a4dd9c5'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('RCUTILS_CONSOLE_STDOUT_LINE_BUFFERED', '1'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.096773] (cpp_chat) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.097256] (cpp_chat) StdoutLine: {'line': b'[ 83%] Built target chat\n'}
+[0.097447] (cpp_chat) StdoutLine: {'line': b'[ 83%] Built target pub\n'}
+[0.099195] (-) TimerEvent: {}
+[0.199450] (-) TimerEvent: {}
+[0.299919] (-) TimerEvent: {}
+[0.400246] (-) TimerEvent: {}
+[0.500697] (-) TimerEvent: {}
+[0.601146] (-) TimerEvent: {}
+[0.701567] (-) TimerEvent: {}
+[0.802011] (-) TimerEvent: {}
+[0.902479] (-) TimerEvent: {}
+[1.003084] (-) TimerEvent: {}
+[1.103467] (-) TimerEvent: {}
+[1.203948] (-) TimerEvent: {}
+[1.304401] (-) TimerEvent: {}
+[1.404837] (-) TimerEvent: {}
+[1.505256] (-) TimerEvent: {}
+[1.555614] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.556155] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.556571] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.556741] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.556904] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.557042] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.557189] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.557325] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.557477] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.557614] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.557752] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.557888] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.558029] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.558189] (cpp_chat) StderrLine: {'line': b'   44 |     RCLCPP_INFO(rclcpp::get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.558325] (cpp_chat) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.558460] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.558596] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.558731] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.558866] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.558999] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.559134] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.559269] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.559404] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.559538] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.559672] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.559807] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.559940] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.560091] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.560230] (cpp_chat) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.560366] (cpp_chat) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.560503] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.560639] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.560775] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.560910] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.561045] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.561183] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.561384] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.561525] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.561662] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.561818] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.561956] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.562095] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.562274] (cpp_chat) StderrLine: {'line': b'   44 |     RCLCPP_INFO(rclcpp::get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.562414] (cpp_chat) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.562553] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.562691] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.562830] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.562967] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.563104] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.563242] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.563378] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.563527] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.563665] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.563803] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.563940] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.564077] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.564215] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.564353] (cpp_chat) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.564490] (cpp_chat) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.564627] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.564764] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.564901] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.565038] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.565175] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.565312] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.565469] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.565607] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.565745] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.565881] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.566018] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.566156] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.566293] (cpp_chat) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.566431] (cpp_chat) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.566569] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.566735] (cpp_chat) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.566880] (cpp_chat) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.567017] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.567156] (cpp_chat) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.567295] (cpp_chat) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.567432] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.567576] (cpp_chat) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.567735] (cpp_chat) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.567890] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.568028] (cpp_chat) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.568165] (cpp_chat) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.568300] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.568445] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.568793] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.569054] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.569216] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.569400] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.569557] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.569697] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.569838] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.569976] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.570127] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.570266] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570444] (cpp_chat) StderrLine: {'line': b'   44 |     RCLCPP_INFO(rclcpp::get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.570587] (cpp_chat) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.570723] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.570860] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.570997] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.571134] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.571271] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.571407] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.571543] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.571679] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.571815] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.571953] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.572090] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.572228] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.572393] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.572531] (cpp_chat) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.572691] (cpp_chat) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.572828] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.572965] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.573100] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.573236] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.573372] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.573518] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.573654] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.573791] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.573928] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.574064] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.574200] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.574357] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:44:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.574515] (cpp_chat) StderrLine: {'line': b'   44 |     RCLCPP_INFO(rclcpp::get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "\\n(\'%s\' -> \'%s\') >> \'$s\' ", typesOrigin[int(msg->data.front())],\n'}
+[1.574654] (cpp_chat) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.574791] (cpp_chat) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.574929] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.575064] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.575202] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.575339] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.575476] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.575613] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.575750] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.575887] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.576024] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.576160] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.576296] (cpp_chat) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:18\x1b[m\x1b[K:\n'}
+[1.576451] (cpp_chat) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros2/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.576587] (cpp_chat) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.576731] (cpp_chat) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.605373] (-) TimerEvent: {}
+[1.705829] (-) TimerEvent: {}
+[1.806275] (-) TimerEvent: {}
+[1.906921] (-) TimerEvent: {}
+[2.007967] (-) TimerEvent: {}
+[2.108420] (-) TimerEvent: {}
+[2.208884] (-) TimerEvent: {}
+[2.309361] (-) TimerEvent: {}
+[2.409856] (-) TimerEvent: {}
+[2.510191] (-) TimerEvent: {}
+[2.610883] (-) TimerEvent: {}
+[2.712583] (-) TimerEvent: {}
+[2.813037] (-) TimerEvent: {}
+[2.913470] (-) TimerEvent: {}
+[3.013984] (-) TimerEvent: {}
+[3.115379] (-) TimerEvent: {}
+[3.215881] (-) TimerEvent: {}
+[3.249164] (cpp_chat) StderrLine: {'line': b'make[2]: *** [CMakeFiles/sub.dir/build.make:82: CMakeFiles/sub.dir/src/sub.cpp.o] Erro 1\n'}
+[3.251178] (cpp_chat) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/sub.dir/all] Erro 2\n'}
+[3.252686] (cpp_chat) StderrLine: {'line': b'make: *** [Makefile:160: all] Erro 2\n'}
+[3.254331] (cpp_chat) CommandEnded: {'returncode': 2}
+[3.315999] (-) TimerEvent: {}
+[3.378094] (cpp_chat) JobEnded: {'identifier': 'cpp_chat', 'rc': 2}
+[3.391031] (-) EventReactorShutdown: {}

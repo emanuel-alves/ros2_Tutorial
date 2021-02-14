@@ -1,0 +1,8 @@
+CMake Error at /opt/ros2/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:40 (message):
+  rosidl_target_interfaces() the second argument 'more_interfaces' must be a
+  valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (rosidl_target_interfaces)
+
+
+make: *** [Makefile:811: cmake_check_build_system] Erro 1

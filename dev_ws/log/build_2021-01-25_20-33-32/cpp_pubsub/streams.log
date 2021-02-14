@@ -1,0 +1,52 @@
+[0.025s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_pubsub': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub
+[0.178s] -- The C compiler identification is GNU 10.2.0
+[0.317s] -- The CXX compiler identification is GNU 10.2.0
+[0.324s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.447s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.453s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.640s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") 
+[0.640s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.842s] -- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+[0.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.890s] -- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+[0.937s] -- Found OpenSSL: /usr/lib/libcrypto.so (found version "1.1.1i")  
+[0.963s] -- Found FastRTPS: /opt/ros2/foxy/include  
+[1.026s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+[1.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.067s] -- Looking for pthread.h
+[1.240s] -- Looking for pthread.h - found
+[1.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.346s] -- Looking for pthread_create in pthreads
+[1.405s] -- Looking for pthread_create in pthreads - not found
+[1.405s] -- Looking for pthread_create in pthread
+[1.479s] -- Looking for pthread_create in pthread - found
+[1.480s] -- Found Threads: TRUE  
+[1.591s] CMake Error at CMakeLists.txt:30 (install):
+[1.591s]   install does not recognize sub-command TARGET
+[1.591s] 
+[1.592s] 
+[1.592s] -- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)
+[1.669s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.672s] -- Configured cppcheck include dirs: 
+[1.672s] -- Configured cppcheck exclude dirs and/or files: 
+[1.675s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.675s] -- Configured cpplint exclude dirs and/or files: 
+[1.677s] -- Added test 'lint_cmake' to check CMake code style
+[1.680s] -- Added test 'uncrustify' to check C / C++ code style
+[1.680s] -- Configured uncrustify additional arguments: 
+[1.680s] -- Added test 'xmllint' to check XML markup files
+[1.683s] -- Configuring incomplete, errors occurred!
+[1.683s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[1.683s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[1.689s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_pubsub' returned '1': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub

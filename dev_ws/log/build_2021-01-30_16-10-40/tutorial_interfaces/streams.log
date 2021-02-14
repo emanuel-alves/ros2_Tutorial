@@ -1,0 +1,36 @@
+[0.027s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces
+[0.505s] -- The C compiler identification is GNU 10.2.0
+[0.683s] -- The CXX compiler identification is GNU 10.2.0
+[0.692s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.769s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.769s] -- Detecting C compile features
+[0.769s] -- Detecting C compile features - done
+[0.772s] -- Detecting CXX compiler ABI info
+[0.883s] -- Detecting CXX compiler ABI info - done
+[0.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.890s] -- Detecting CXX compile features
+[0.891s] -- Detecting CXX compile features - done
+[0.895s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.931s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") 
+[0.931s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.197s] CMake Error at CMakeLists.txt:20 (find_package):
+[1.197s]   By not providing "Findrosid1_default_generator.cmake" in CMAKE_MODULE_PATH
+[1.197s]   this project has asked CMake to find a package configuration file provided
+[1.197s]   by "rosid1_default_generator", but CMake did not find one.
+[1.197s] 
+[1.197s]   Could not find a package configuration file provided by
+[1.198s]   "rosid1_default_generator" with any of the following names:
+[1.198s] 
+[1.198s]     rosid1_default_generatorConfig.cmake
+[1.198s]     rosid1_default_generator-config.cmake
+[1.198s] 
+[1.198s]   Add the installation prefix of "rosid1_default_generator" to
+[1.198s]   CMAKE_PREFIX_PATH or set "rosid1_default_generator_DIR" to a directory
+[1.199s]   containing one of the above files.  If "rosid1_default_generator" provides
+[1.199s]   a separate development package or SDK, be sure it has been installed.
+[1.199s] 
+[1.199s] 
+[1.200s] -- Configuring incomplete, errors occurred!
+[1.200s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.201s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces' returned '1': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces

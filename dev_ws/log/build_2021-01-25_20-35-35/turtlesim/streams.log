@@ -1,0 +1,20 @@
+[0.038s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim -- -j8 -l8
+[0.099s] [  1%] Built target turtlesim__cpp
+[0.104s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.140s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.149s] [ 38%] Built target turtlesim__rosidl_typesupport_c
+[0.149s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.152s] [ 59%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.153s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.195s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.230s] [ 71%] Built target turtlesim
+[0.265s] [ 72%] Built target turtlesim__py
+[0.266s] [ 74%] Built target draw_square
+[0.269s] [ 76%] Built target mimic
+[0.270s] [ 78%] Built target turtle_teleop_key
+[0.280s] [ 84%] Built target turtlesim_node
+[0.303s] [ 93%] Built target turtlesim__python
+[0.354s] [100%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.354s] [100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.355s] [100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.382s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim -- -j8 -l8

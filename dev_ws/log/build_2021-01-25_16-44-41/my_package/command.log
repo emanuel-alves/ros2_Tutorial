@@ -1,0 +1,4 @@
+Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package -- -j8 -l8
+Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package -- -j8 -l8
+Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package
+Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package' returned '0': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/my_package

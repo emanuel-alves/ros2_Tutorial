@@ -1,0 +1,79 @@
+[0.032s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces -- -j8 -l8
+[0.061s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.302s] -- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.490s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+[0.490s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.600s] -- Found tutorial_interfaces: 0.0.1 (/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.610s] -- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)
+[0.684s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.692s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.692s] -- Configured cppcheck include dirs: 
+[0.693s] -- Configured cppcheck exclude dirs and/or files: 
+[0.700s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.700s] -- Configured cpplint exclude dirs and/or files: 
+[0.703s] -- Added test 'lint_cmake' to check CMake code style
+[0.711s] -- Added test 'uncrustify' to check C / C++ code style
+[0.711s] -- Configured uncrustify additional arguments: 
+[0.713s] -- Added test 'xmllint' to check XML markup files
+[0.714s] -- Configuring done
+[0.740s] -- Generating done
+[0.744s] -- Build files have been written to: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces
+[0.777s] [35m[1mScanning dependencies of target client[0m
+[0.777s] [35m[1mScanning dependencies of target listener[0m
+[0.778s] [35m[1mScanning dependencies of target service[0m
+[0.779s] [35m[1mScanning dependencies of target talker[0m
+[0.810s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.810s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.821s] [ 37%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[0.822s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[2.519s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.520s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/src/client.cpp:39:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing FutureReturnCode = enum class rclcpp::FutureReturnCode[m[K’ is deprecated: use rclcpp::FutureReturnCode instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.520s]    39 |     rclcpp::executor::FutureReturnCode::[01;35m[KSUCCESS[m[K)
+[2.520s]       |                                         [01;35m[K^~~~~~~[m[K
+[2.520s] In file included from [01m[K/opt/ros2/foxy/include/rclcpp/executor.hpp:34[m[K,
+[2.521s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.521s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.521s]                  from [01m[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.522s]                  from [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/src/client.cpp:1[m[K:
+[2.522s] [01m[K/opt/ros2/foxy/include/rclcpp/future_return_code.hpp:48:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.522s]    48 | using [01;36m[KFutureReturnCode[m[K [[deprecated("use rclcpp::FutureReturnCode instead")]] = FutureReturnCode;
+[2.523s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.690s] [ 62%] [32m[1mLinking CXX executable service[0m
+[3.981s] [ 62%] Built target service
+[4.192s] [ 75%] [32m[1mLinking CXX executable client[0m
+[4.447s] [ 75%] Built target client
+[4.701s] [ 87%] [32m[1mLinking CXX executable talker[0m
+[4.966s] [ 87%] Built target talker
+[6.740s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.156s] [100%] Built target listener
+[7.165s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces -- -j8 -l8
+[7.280s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces
+[7.288s] -- Install configuration: ""
+[7.288s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/talker
+[7.295s] -- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/talker" to ""
+[7.296s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/listener
+[7.312s] -- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/listener" to ""
+[7.312s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/service
+[7.315s] -- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/service" to ""
+[7.315s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/client
+[7.320s] -- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/lib/cpp_interfaces/client" to ""
+[7.320s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/ament_index/resource_index/package_run_dependencies/cpp_interfaces
+[7.320s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/ament_index/resource_index/parent_prefix_path/cpp_interfaces
+[7.320s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/ament_prefix_path.sh
+[7.321s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/ament_prefix_path.dsv
+[7.321s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/path.sh
+[7.321s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/environment/path.dsv
+[7.322s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.bash
+[7.322s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.sh
+[7.322s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.zsh
+[7.322s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/local_setup.dsv
+[7.323s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/package.dsv
+[7.324s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/ament_index/resource_index/packages/cpp_interfaces
+[7.324s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/cmake/cpp_interfacesConfig.cmake
+[7.324s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/cmake/cpp_interfacesConfig-version.cmake
+[7.324s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces/share/cpp_interfaces/package.xml
+[7.327s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces' returned '0': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces

@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages",
+        "/opt/ros2/foxy/lib/python3.9/site-packages"
+    ],
+    "files.associations": {
+        "ratio": "cpp",
+        "memory": "cpp"
+    }
+}

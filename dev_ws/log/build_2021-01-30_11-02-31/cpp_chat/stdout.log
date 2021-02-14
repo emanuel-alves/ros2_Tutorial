@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target chat[0m
+[ 50%] Built target sub
+[ 66%] Built target pub
+[ 83%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m

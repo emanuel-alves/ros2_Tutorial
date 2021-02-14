@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros2/foxy/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

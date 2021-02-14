@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000532] (-) JobUnselected: {'identifier': 'cpp_chat'}
+[0.001124] (-) JobUnselected: {'identifier': 'cpp_interfaces'}
+[0.002332] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002439] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002488] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002556] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002657] (-) JobUnselected: {'identifier': 'rosidl_tutorials_msgs'}
+[0.002730] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002774] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002821] (cpp_parameters) JobQueued: {'identifier': 'cpp_parameters', 'dependencies': OrderedDict()}
+[0.002887] (cpp_parameters) JobStarted: {'identifier': 'cpp_parameters'}
+[0.040683] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'cmake'}
+[0.041120] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters', '-DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/11044,unix/emanuel:/tmp/.ICE-unix/11044'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGIYX0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_srvcli:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_srvcli:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae079ea2_efaa_4823_8fcc_f39f939c8e57'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.381'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099287] (-) TimerEvent: {}
+[0.199920] (-) TimerEvent: {}
+[0.300750] (-) TimerEvent: {}
+[0.343627] (cpp_parameters) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.2.0\n'}
+[0.400855] (-) TimerEvent: {}
+[0.501525] (-) TimerEvent: {}
+[0.602457] (-) TimerEvent: {}
+[0.633614] (cpp_parameters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.2.0\n'}
+[0.659714] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702593] (-) TimerEvent: {}
+[0.803069] (-) TimerEvent: {}
+[0.855318] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.883564] (cpp_parameters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.884605] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.886034] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.892650] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.903146] (-) TimerEvent: {}
+[1.003485] (-) TimerEvent: {}
+[1.089224] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.103753] (-) TimerEvent: {}
+[1.116889] (cpp_parameters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.117645] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.119244] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.137207] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)\n'}
+[1.199619] (cpp_parameters) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") \n'}
+[1.200485] (cpp_parameters) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.203780] (-) TimerEvent: {}
+[1.304025] (-) TimerEvent: {}
+[1.404457] (-) TimerEvent: {}
+[1.504867] (-) TimerEvent: {}
+[1.576962] (cpp_parameters) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)\n'}
+[1.604996] (-) TimerEvent: {}
+[1.705415] (-) TimerEvent: {}
+[1.708036] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.735411] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)\n'}
+[1.805521] (-) TimerEvent: {}
+[1.883140] (cpp_parameters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/libcrypto.so (found version "1.1.1i")  \n'}
+[1.905614] (-) TimerEvent: {}
+[1.926279] (cpp_parameters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros2/foxy/include  \n'}
+[2.005773] (-) TimerEvent: {}
+[2.069763] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.106049] (-) TimerEvent: {}
+[2.190005] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.193313] (cpp_parameters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.199807] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.206100] (-) TimerEvent: {}
+[2.306646] (-) TimerEvent: {}
+[2.376189] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.378621] (cpp_parameters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.406734] (-) TimerEvent: {}
+[2.507153] (-) TimerEvent: {}
+[2.569847] (cpp_parameters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.571495] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.607369] (-) TimerEvent: {}
+[2.708149] (-) TimerEvent: {}
+[2.754249] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.754664] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.808249] (-) TimerEvent: {}
+[2.881786] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.887466] (cpp_parameters) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.908378] (-) TimerEvent: {}
+[3.008797] (-) TimerEvent: {}
+[3.109260] (-) TimerEvent: {}
+[3.122018] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)\n'}
+[3.209360] (-) TimerEvent: {}
+[3.291760] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.302014] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.302471] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.302716] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.309446] (-) TimerEvent: {}
+[3.313101] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.313415] (cpp_parameters) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.318028] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.329468] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.330071] (cpp_parameters) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.332932] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.338808] (cpp_parameters) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.353730] (cpp_parameters) StdoutLine: {'line': b'-- Generating done\n'}
+[3.357577] (cpp_parameters) StdoutLine: {'line': b'-- Build files have been written to: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters\n'}
+[3.364738] (cpp_parameters) CommandEnded: {'returncode': 0}
+[3.365797] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'build'}
+[3.366954] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters', '--', '-j8', '-l8'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/11044,unix/emanuel:/tmp/.ICE-unix/11044'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGIYX0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_srvcli:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_srvcli:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae079ea2_efaa_4823_8fcc_f39f939c8e57'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.381'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[3.409563] (-) TimerEvent: {}
+[3.430041] (cpp_parameters) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target parameters_node\x1b[0m\n'}
+[3.465506] (cpp_parameters) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameters_node.dir/src/cpp_parameters_node.cpp.o\x1b[0m\n'}
+[3.509653] (-) TimerEvent: {}
+[3.610088] (-) TimerEvent: {}
+[3.710554] (-) TimerEvent: {}
+[3.811005] (-) TimerEvent: {}
+[3.911471] (-) TimerEvent: {}
+[4.011938] (-) TimerEvent: {}
+[4.112408] (-) TimerEvent: {}
+[4.212837] (-) TimerEvent: {}
+[4.313280] (-) TimerEvent: {}
+[4.413725] (-) TimerEvent: {}
+[4.514161] (-) TimerEvent: {}
+[4.614678] (-) TimerEvent: {}
+[4.715468] (-) TimerEvent: {}
+[4.815908] (-) TimerEvent: {}
+[4.916345] (-) TimerEvent: {}
+[5.016703] (-) TimerEvent: {}
+[5.117056] (-) TimerEvent: {}
+[5.217408] (-) TimerEvent: {}
+[5.317821] (-) TimerEvent: {}
+[5.418255] (-) TimerEvent: {}
+[5.518716] (-) TimerEvent: {}
+[5.619170] (-) TimerEvent: {}
+[5.719625] (-) TimerEvent: {}
+[5.820063] (-) TimerEvent: {}
+[5.920500] (-) TimerEvent: {}
+[6.012142] (cpp_parameters) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable parameters_node\x1b[0m\n'}
+[6.020855] (-) TimerEvent: {}
+[6.122148] (-) TimerEvent: {}
+[6.222621] (-) TimerEvent: {}
+[6.323201] (-) TimerEvent: {}
+[6.423740] (-) TimerEvent: {}
+[6.471154] (cpp_parameters) StdoutLine: {'line': b'[100%] Built target parameters_node\n'}
+[6.482617] (cpp_parameters) CommandEnded: {'returncode': 0}
+[6.523892] (-) TimerEvent: {}
+[6.575367] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'install'}
+[6.587558] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters'], 'cwd': '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters', 'env': OrderedDict([('SHELL', '/usr/bin/zsh'), ('ROS_VERSION', '2'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('SESSION_MANAGER', 'local/emanuel:@/tmp/.ICE-unix/11044,unix/emanuel:/tmp/.ICE-unix/11044'), ('COLORTERM', 'truecolor'), ('LESS', '-R'), ('XDG_MENU_PREFIX', 'gnome-'), ('PKG_CONFIG_PATH', '/opt/ros2/foxy/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('_P9K_TTY', '/dev/pts/1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('P9K_TTY', 'old'), ('DESKTOP_SESSION', 'gnome'), ('PWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_parameters'), ('LOGNAME', 'emanuel'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_DOMAIN_ID', '0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGIYX0'), ('MOTD_SHOWN', 'pam'), ('GDM_LANG', 'pt_BR.UTF-8'), ('HOME', '/home/emanuel'), ('USERNAME', 'emanuel'), ('LANG', 'pt_BR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow='), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('VTE_VERSION', '6202'), ('WAYLAND_DISPLAY', 'wayland-0'), ('AMENT_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_srvcli:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/opt/ros2/foxy'), ('CMAKE_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_srvcli:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/my_package:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat:/opt/ros2/foxy'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae079ea2_efaa_4823_8fcc_f39f939c8e57'), ('COLCON_PREFIX_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install:/opt/ros2/foxy'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib/python3.9/site-packages:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib/python3.9/site-packages:/opt/ros2/foxy/lib/python3.9/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('ZSH', '/home/emanuel/.oh-my-zsh'), ('USER', 'emanuel'), ('GNOME_TERMINAL_SERVICE', ':1.381'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('PAGER', 'less'), ('LD_LIBRARY_PATH', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces/lib:/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/lib:/opt/ros2/foxy/opt/yaml_cpp_vendor/lib:/opt/ros2/foxy/opt/rviz_ogre_vendor/lib:/opt/ros2/foxy/opt/rviz_assimp_vendor/lib:/opt/ros2/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('P9K_SSH', '0'), ('XDG_DATA_DIRS', '/home/emanuel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PATH', '/opt/ros2/foxy/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'), ('GDMSESSION', 'gnome'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAIL', '/var/spool/mail/emanuel'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.600227] (cpp_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.600778] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameters_node\n'}
+[6.604480] (cpp_parameters) StdoutLine: {'line': b'-- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameters_node" to ""\n'}
+[6.604931] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters\n'}
+[6.605633] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters\n'}
+[6.606325] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh\n'}
+[6.606877] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv\n'}
+[6.607397] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh\n'}
+[6.607877] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv\n'}
+[6.608459] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash\n'}
+[6.609040] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh\n'}
+[6.609673] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh\n'}
+[6.610286] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv\n'}
+[6.610907] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv\n'}
+[6.611595] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters\n'}
+[6.612232] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake\n'}
+[6.612806] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake\n'}
+[6.613513] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_parameters/share/cpp_parameters/package.xml\n'}
+[6.615521] (cpp_parameters) CommandEnded: {'returncode': 0}
+[6.624956] (-) TimerEvent: {}
+[6.725371] (-) TimerEvent: {}
+[6.783627] (cpp_parameters) JobEnded: {'identifier': 'cpp_parameters', 'rc': 0}
+[6.784595] (-) EventReactorShutdown: {}

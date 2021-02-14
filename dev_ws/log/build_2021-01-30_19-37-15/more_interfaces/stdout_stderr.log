@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found PythonInterp: /usr/bin/python3 (found version "3.9.1") 
+-- Found ament_cmake_ros: 0.9.0 (/opt/ros2/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros2/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.9
+-- Using PYTHON_LIBRARIES: /usr/lib/libpython3.9.so
+-- Using numpy include directory: /usr/lib/python3.9/site-packages/numpy/core/include
+CMake Error at /opt/ros2/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (ament_target_dependencies)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+make: *** [Makefile:767: cmake_check_build_system] Erro 1

@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros2/foxy/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces/include/**",
+        "/usr/include/**",
+        "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/srs/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

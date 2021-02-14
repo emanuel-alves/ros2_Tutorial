@@ -1,0 +1,12 @@
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli/src/client.cpp:39:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing FutureReturnCode = enum class rclcpp::FutureReturnCode[m[K’ is deprecated: use rclcpp::FutureReturnCode instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   39 |     rclcpp::executor::FutureReturnCode::[01;35m[KSUCCESS[m[K)
+      |                                         [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros2/foxy/include/rclcpp/executor.hpp:34[m[K,
+                 from [01m[K/opt/ros2/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros2/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros2/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli/src/client.cpp:1[m[K:
+[01m[K/opt/ros2/foxy/include/rclcpp/future_return_code.hpp:48:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   48 | using [01;36m[KFutureReturnCode[m[K [[deprecated("use rclcpp::FutureReturnCode instead")]] = FutureReturnCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K

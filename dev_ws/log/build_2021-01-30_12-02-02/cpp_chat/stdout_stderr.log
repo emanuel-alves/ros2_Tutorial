@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target chat[0m
+[ 66%] Built target sub
+[ 66%] Built target pub
+[ 83%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
+make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Interrupção
+make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Interrupção
+make: *** [Makefile:160: all] Interrupção

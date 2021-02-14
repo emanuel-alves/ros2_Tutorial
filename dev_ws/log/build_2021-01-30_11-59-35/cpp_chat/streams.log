@@ -1,0 +1,30 @@
+[0.035s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8
+[0.082s] [35m[1mScanning dependencies of target chat[0m
+[0.097s] [ 66%] Built target pub
+[0.097s] [ 66%] Built target sub
+[0.104s] [ 83%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
+[6.906s] [100%] [32m[1mLinking CXX executable chat[0m
+[7.462s] [100%] Built target chat
+[7.471s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8
+[7.578s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat
+[7.585s] -- Install configuration: ""
+[7.585s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/lib/cpp_chat/pub
+[7.586s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/lib/cpp_chat/sub
+[7.587s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/lib/cpp_chat/chat
+[7.615s] -- Set runtime path of "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/lib/cpp_chat/chat" to ""
+[7.616s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/ament_index/resource_index/package_run_dependencies/cpp_chat
+[7.616s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/ament_index/resource_index/parent_prefix_path/cpp_chat
+[7.616s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/environment/ament_prefix_path.sh
+[7.616s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/environment/ament_prefix_path.dsv
+[7.617s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/environment/path.sh
+[7.617s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/environment/path.dsv
+[7.617s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/local_setup.bash
+[7.617s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/local_setup.sh
+[7.617s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/local_setup.zsh
+[7.618s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/local_setup.dsv
+[7.618s] -- Installing: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/package.dsv
+[7.619s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/ament_index/resource_index/packages/cpp_chat
+[7.619s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/cmake/cpp_chatConfig.cmake
+[7.619s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/cmake/cpp_chatConfig-version.cmake
+[7.619s] -- Up-to-date: /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_chat/share/cpp_chat/package.xml
+[7.624s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat' returned '0': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat

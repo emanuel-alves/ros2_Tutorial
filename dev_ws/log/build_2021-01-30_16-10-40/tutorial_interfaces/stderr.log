@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Findrosid1_default_generator.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "rosid1_default_generator", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosid1_default_generator" with any of the following names:
+
+    rosid1_default_generatorConfig.cmake
+    rosid1_default_generator-config.cmake
+
+  Add the installation prefix of "rosid1_default_generator" to
+  CMAKE_PREFIX_PATH or set "rosid1_default_generator_DIR" to a directory
+  containing one of the above files.  If "rosid1_default_generator" provides
+  a separate development package or SDK, be sure it has been installed.
+
+

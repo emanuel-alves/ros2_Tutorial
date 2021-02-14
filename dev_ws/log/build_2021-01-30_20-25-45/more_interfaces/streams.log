@@ -1,0 +1,49 @@
+[0.050s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces -- -j8 -l8
+[0.089s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.128s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") 
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.368s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+[0.583s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+[0.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.701s] -- Found rosidl_tutorials_msgs: 0.0.0 (/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/share/rosidl_tutorials_msgs/cmake)
+[0.744s] -- Found PythonInterp: /usr/bin/python3 (found version "3.9.1") 
+[0.892s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros2/foxy/share/ament_cmake_ros/cmake)
+[1.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.043s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.078s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3.5") 
+[1.078s] -- Found python_cmake_module: 0.8.0 (/opt/ros2/foxy/share/python_cmake_module/cmake)
+[1.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.114s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.9
+[1.114s] -- Using PYTHON_LIBRARIES: /usr/lib/libpython3.9.so
+[1.258s] -- Using numpy include directory: /usr/lib/python3.9/site-packages/numpy/core/include
+[1.311s] -- Found PythonInterp: /usr/bin/python3 (found version "3.9.1") 
+[1.389s] CMake Error at /opt/ros2/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[1.389s]   add_custom_target cannot create target "more_interfaces" because another
+[1.389s]   target with the same name already exists.  The existing target is a custom
+[1.390s]   target created in source directory
+[1.390s]   "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces".  See
+[1.390s]   documentation for policy CMP0002 for more details.
+[1.390s] Call Stack (most recent call first):
+[1.390s]   CMakeLists.txt:50 (rosidl_generate_interfaces)
+[1.390s] 
+[1.391s] 
+[1.391s] -- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)
+[1.404s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.413s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.413s] -- Configured cppcheck include dirs: 
+[1.413s] -- Configured cppcheck exclude dirs and/or files: 
+[1.423s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.423s] -- Configured cpplint exclude dirs and/or files: 
+[1.426s] -- Added test 'lint_cmake' to check CMake code style
+[1.436s] -- Added test 'uncrustify' to check C / C++ code style
+[1.437s] -- Configured uncrustify additional arguments: 
+[1.438s] -- Added test 'xmllint' to check XML markup files
+[1.442s] -- Configuring incomplete, errors occurred!
+[1.442s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[1.443s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+[1.460s] make: *** [Makefile:811: cmake_check_build_system] Erro 1
+[1.462s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces -- -j8 -l8

@@ -1,0 +1,21 @@
+[0.041s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8
+[0.086s] [35m[1mScanning dependencies of target chat[0m
+[0.086s] [35m[1mScanning dependencies of target sub[0m
+[0.101s] [ 33%] Built target pub
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[0.108s] [ 66%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
+[1.504s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:[m[K In constructor ‘[01m[KMinimalChat::MinimalChat()[m[K’:
+[1.504s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.504s]    40 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+[1.504s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.505s]       |     [32m[Krcl_subscription_t[m[K
+[1.505s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:41:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[1.505s]    41 |       "topic", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+[1.505s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.578s] make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Erro 1
+[2.580s] make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Erro 2
+[2.580s] make[1]: ** Esperando que outros processos terminem.
+[5.362s] [ 83%] [32m[1mLinking CXX executable sub[0m
+[5.724s] [ 83%] Built target sub
+[5.726s] make: *** [Makefile:160: all] Erro 2
+[5.727s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8

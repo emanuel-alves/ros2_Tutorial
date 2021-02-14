@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_tutorials_msgs: 0.0.0 (/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/share/rosidl_tutorials_msgs/cmake)
+CMake Error at /opt/ros2/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:40 (message):
+  rosidl_target_interfaces() the second argument 'more_interfaces' must be a
+  valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (rosidl_target_interfaces)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+make: *** [Makefile:811: cmake_check_build_system] Erro 1

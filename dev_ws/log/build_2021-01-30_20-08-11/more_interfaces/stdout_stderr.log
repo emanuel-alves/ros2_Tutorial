@@ -1,0 +1,47 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.3.0 (/opt/ros2/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros2/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_tutorials_msgs: 0.0.0 (/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/rosidl_tutorials_msgs/share/rosidl_tutorials_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.9.1") 
+-- Found ament_cmake_ros: 0.9.0 (/opt/ros2/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.1", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros2/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.9
+-- Using PYTHON_LIBRARIES: /usr/lib/libpython3.9.so
+-- Using numpy include directory: /usr/lib/python3.9/site-packages/numpy/core/include
+-- Found PythonInterp: /usr/bin/python3 (found version "3.9.1") 
+CMake Error at /opt/ros2/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  add_custom_target cannot create target "more_interfaces" because another
+  target with the same name already exists.  The existing target is a custom
+  target created in source directory
+  "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (rosidl_generate_interfaces)
+
+
+-- Found ament_lint_auto: 0.9.6 (/opt/ros2/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring incomplete, errors occurred!
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+make: *** [Makefile:811: cmake_check_build_system] Erro 1

@@ -1,0 +1,17 @@
+{
+  "package_name": "rosidl_tutorials_msgs",
+  "output_dir": "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/rosidl_tutorials_msgs/rosidl_typesupport_cpp/rosidl_tutorials_msgs",
+  "template_dir": "/opt/ros2/foxy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/rosidl_tutorials_msgs/rosidl_adapter/rosidl_tutorials_msgs:msg/Contact.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros2/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros2/foxy/lib/python3.9/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros2/foxy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/rosidl_tutorials_msgs/rosidl_adapter/rosidl_tutorials_msgs/msg/Contact.idl"
+  ]
+}

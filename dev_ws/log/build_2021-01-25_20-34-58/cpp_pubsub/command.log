@@ -1,0 +1,2 @@
+Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_pubsub': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub
+Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_pubsub' returned '1': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/cpp_pubsub

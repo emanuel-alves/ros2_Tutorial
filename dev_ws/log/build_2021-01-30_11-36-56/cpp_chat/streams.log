@@ -1,0 +1,14 @@
+[0.029s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8
+[0.072s] [35m[1mScanning dependencies of target chat[0m
+[0.086s] [ 66%] Built target sub
+[0.086s] [ 66%] Built target pub
+[0.091s] [ 83%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
+[1.449s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:[m[K In constructor ‘[01m[KMinimalChat::MinimalChat()[m[K’:
+[1.450s] [01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.450s]    35 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.450s]       |     [01;31m[K^~~~~~[m[K
+[1.450s]       |     [32m[Ktimer_t[m[K
+[3.135s] make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Erro 1
+[3.137s] make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Erro 2
+[3.138s] make: *** [Makefile:160: all] Erro 2
+[3.140s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8

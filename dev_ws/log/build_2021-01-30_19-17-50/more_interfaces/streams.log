@@ -1,0 +1,14 @@
+[0.031s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces
+[0.045s] -- Found ament_cmake: 0.9.8 (/opt/ros2/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.300s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros2/foxy/share/rosidl_default_generators/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.306s] -- Found rosidl_adapter: 1.2.0 (/opt/ros2/foxy/share/rosidl_adapter/cmake)
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.463s] CMake Error at CMakeLists.txt:26 (rosidl_generate_interface):
+[0.463s]   Unknown CMake command "rosidl_generate_interface".
+[0.464s] 
+[0.464s] 
+[0.464s] -- Configuring incomplete, errors occurred!
+[0.464s] See also "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[0.468s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/more_interfaces' returned '1': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/more_interfaces

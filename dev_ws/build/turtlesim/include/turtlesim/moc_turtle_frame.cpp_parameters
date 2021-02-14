@@ -1,0 +1,10 @@
+-I/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim/include
+-I/usr/include/qt
+-I/usr/include/qt/QtWidgets
+-I/usr/include/qt/QtGui
+-I/usr/include/qt/QtCore
+-I/usr/lib/qt/mkspecs/linux-g++
+-DROS_PACKAGE_NAME="turtlesim"
+-o
+/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.h

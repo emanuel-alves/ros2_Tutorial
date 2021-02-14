@@ -1,0 +1,7 @@
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:[m[K In member function ‘[01m[Kvoid MinimalChat::timer_callback()[m[K’:
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:51:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KMinimalChat[m[K’
+   51 |           "topic", 10, std::bind(&MinimalChat::[01;31m[Ktopic_callback[m[K, this, _1));
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Erro 1
+make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Erro 2
+make: *** [Makefile:160: all] Erro 2

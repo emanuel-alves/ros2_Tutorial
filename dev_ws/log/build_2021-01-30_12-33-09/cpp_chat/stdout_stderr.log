@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target pub[0m
+[ 50%] Built target chat
+[ 66%] Built target sub
+[ 83%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/pub.cpp:47:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[KLogger[m[K’
+   47 |     auto nullLog = this->[01;31m[KLogger[m[K();
+      |                          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pub.dir/build.make:82: CMakeFiles/pub.dir/src/pub.cpp.o] Erro 1
+make[1]: *** [CMakeFiles/Makefile2:128: CMakeFiles/pub.dir/all] Erro 2
+make: *** [Makefile:160: all] Erro 2

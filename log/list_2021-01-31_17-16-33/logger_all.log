@@ -1,0 +1,189 @@
+[1.802s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/mnt/HomeWin/projetos/tutorial_ros2']
+[1.802s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/mnt/HomeWin/projetos/tutorial_ros2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f29729a5e20>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f2972a16dc0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f2972a16dc0>>)
+[1.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.842s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/HomeWin/projetos/tutorial_ros2'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'ignore'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'ignore_ament_install'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extensions ['colcon_pkg']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'colcon_pkg'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extensions ['colcon_meta']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'colcon_meta'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extensions ['ros']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'ros'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extensions ['cmake', 'python']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'cmake'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'python'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extensions ['python_setup_py']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2) by extension 'python_setup_py'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'ignore'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'ignore_ament_install'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extensions ['colcon_pkg']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'colcon_pkg'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extensions ['colcon_meta']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'colcon_meta'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extensions ['ros']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'ros'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extensions ['cmake', 'python']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'cmake'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'python'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extensions ['python_setup_py']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws) by extension 'python_setup_py'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build) by extension 'ignore'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build) ignored
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install) by extension 'ignore'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install) ignored
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/log) by extension 'ignore'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/log) ignored
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'ignore'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'ignore_ament_install'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extensions ['colcon_pkg']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'colcon_pkg'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extensions ['colcon_meta']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'colcon_meta'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extensions ['ros']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'ros'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extensions ['cmake', 'python']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'cmake'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'python'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extensions ['python_setup_py']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src) by extension 'python_setup_py'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extensions ['ignore', 'ignore_ament_install']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extension 'ignore_ament_install'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extensions ['colcon_pkg']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extension 'colcon_pkg'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extensions ['colcon_meta']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extension 'colcon_meta'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extensions ['ros']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat) by extension 'ros'
+[1.862s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat' with type 'ros.ament_cmake' and name 'cpp_chat'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extension 'ignore'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extension 'ignore_ament_install'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extensions ['colcon_pkg']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extension 'colcon_pkg'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extensions ['colcon_meta']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extension 'colcon_meta'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extensions ['ros']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces) by extension 'ros'
+[1.865s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_interfaces' with type 'ros.ament_cmake' and name 'cpp_interfaces'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extension 'ignore'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extension 'ignore_ament_install'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extensions ['colcon_pkg']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extension 'colcon_pkg'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extensions ['colcon_meta']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extension 'colcon_meta'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extensions ['ros']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters) by extension 'ros'
+[1.870s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extension 'ignore'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extension 'ignore_ament_install'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extensions ['colcon_pkg']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extension 'colcon_pkg'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extensions ['colcon_meta']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extension 'colcon_meta'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extensions ['ros']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub) by extension 'ros'
+[1.873s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extension 'ignore_ament_install'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extensions ['colcon_pkg']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extension 'colcon_pkg'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extensions ['colcon_meta']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extension 'colcon_meta'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extensions ['ros']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli) by extension 'ros'
+[1.877s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/log) by extension 'ignore'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/log) ignored
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extension 'ignore_ament_install'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extensions ['colcon_pkg']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extension 'colcon_pkg'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extensions ['colcon_meta']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extension 'colcon_meta'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extensions ['ros']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces) by extension 'ros'
+[1.881s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extension 'ignore_ament_install'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extensions ['colcon_pkg']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package) by extension 'ros'
+[1.885s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'ignore'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'colcon_meta'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extensions ['ros']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'ros'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'cmake'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'python'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials) by extension 'python_setup_py'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/ros_tutorials) ignored
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/rospy_tutorials) ignored
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[1.894s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extension 'ignore_ament_install'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extension 'colcon_pkg'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extensions ['colcon_meta']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extension 'colcon_meta'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extensions ['ros']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs) by extension 'ros'
+[1.897s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs' with type 'ros.ament_cmake' and name 'rosidl_tutorials_msgs'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extension 'ignore'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extension 'ignore_ament_install'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extensions ['colcon_pkg']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extension 'colcon_pkg'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extensions ['colcon_meta']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extension 'colcon_meta'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extensions ['ros']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces) by extension 'ros'
+[1.903s] DEBUG:colcon.colcon_core.package_identification:Package '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/log) by extension 'ignore'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/HomeWin/projetos/tutorial_ros2/log) ignored
+[1.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

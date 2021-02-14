@@ -1,0 +1,19 @@
+{
+  "package_name": "rosidl_tutorials_msgs",
+  "output_dir": "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/rosidl_tutorials_msgs/rosidl_typesupport_fastrtps_c/rosidl_tutorials_msgs",
+  "template_dir": "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/rosidl_tutorials_msgs/rosidl_adapter/rosidl_tutorials_msgs:msg/Contact.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros2/foxy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros2/foxy/lib/python3.9/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros2/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/rosidl_tutorials_msgs/rosidl_adapter/rosidl_tutorials_msgs/msg/Contact.idl"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "rosidl_tutorials_msgs",
+  "non_idl_tuples": [
+    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/rosidl_tutorials_msgs:msg/Contact.msg"
+  ]
+}

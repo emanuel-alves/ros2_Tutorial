@@ -1,0 +1,4 @@
+Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim -- -j8 -l8
+Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim -- -j8 -l8
+Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim
+Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim' returned '0': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim
