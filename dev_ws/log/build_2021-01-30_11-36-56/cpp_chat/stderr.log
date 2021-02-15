@@ -1,8 +1,0 @@
-[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:[m[K In constructor ‘[01m[KMinimalChat::MinimalChat()[m[K’:
-[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/chat.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
-   35 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
-      |     [01;31m[K^~~~~~[m[K
-      |     [32m[Ktimer_t[m[K
-make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Erro 1
-make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Erro 2
-make: *** [Makefile:160: all] Erro 2

@@ -1,4 +1,0 @@
-Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim
-Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim' returned '0': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/turtlesim
-Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim -- -j8 -l8
-Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim' returned '-2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim -- -j8 -l8

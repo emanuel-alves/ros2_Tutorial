@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:29 (add_target_dependencies):
-  Unknown CMake command "add_target_dependencies".
-
-
-make: *** [Makefile:767: cmake_check_build_system] Erro 1

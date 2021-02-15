@@ -1,8 +1,0 @@
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
-/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

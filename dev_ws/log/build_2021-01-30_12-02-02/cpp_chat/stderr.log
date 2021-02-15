@@ -1,3 +1,0 @@
-make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Interrupção
-make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Interrupção
-make: *** [Makefile:160: all] Interrupção

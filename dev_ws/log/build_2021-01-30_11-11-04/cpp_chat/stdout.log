@@ -1,7 +1,0 @@
-[35m[1mScanning dependencies of target chat[0m
-[35m[1mScanning dependencies of target pub[0m
-[ 33%] Built target sub
-[ 66%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
-[ 83%] [32m[1mLinking CXX executable pub[0m
-[ 83%] Built target pub

@@ -1,9 +1,0 @@
-[0.035s] Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8
-[0.083s] [35m[1mScanning dependencies of target chat[0m
-[0.097s] [ 66%] Built target sub
-[0.097s] [ 66%] Built target pub
-[0.103s] [ 83%] [32mBuilding CXX object CMakeFiles/chat.dir/src/chat.cpp.o[0m
-[3.040s] make[2]: *** [CMakeFiles/chat.dir/build.make:82: CMakeFiles/chat.dir/src/chat.cpp.o] Interrupção
-[3.041s] make[1]: *** [CMakeFiles/Makefile2:101: CMakeFiles/chat.dir/all] Interrupção
-[3.043s] make: *** [Makefile:160: all] Interrupção
-[3.051s] Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat' returned '-2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_chat -- -j8 -l8

@@ -1,7 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces:msg/Num.msg",
-    "/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces:srv/AddThreeInts.srv"
-  ]
-}

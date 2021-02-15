@@ -2,7 +2,7 @@
 ## Modulos:
 - [x] Beginner: CLI Tools
 - [x] Beginner: Client Libraries
-- [ ] Intermediate
+- [x] Intermediate
 - [ ] Working With Your First Package & Workspace
 - [ ] Learning the ROS 2 Toolset
 - [ ] Advanced

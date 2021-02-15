@@ -1,2 +1,0 @@
-Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces
-Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces' returned '1': _=/usr/bin/env /usr/bin/cmake /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/install/tutorial_interfaces

@@ -1,8 +1,0 @@
-[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
-[01m[K/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/src/cpp_chat/src/sub.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcp[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp[m[K’?
-   35 |     [01;31m[Krclcp[m[K
-      |     [01;31m[K^~~~~[m[K
-      |     [32m[Krclcpp[m[K
-make[2]: *** [CMakeFiles/sub.dir/build.make:82: CMakeFiles/sub.dir/src/sub.cpp.o] Erro 1
-make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/sub.dir/all] Erro 2
-make: *** [Makefile:160: all] Erro 2

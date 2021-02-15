@@ -1,4 +1,0 @@
-Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces -- -j8 -l8
-Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces' returned '0': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces -- -j8 -l8
-Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces
-Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces' returned '0': _=/usr/bin/env /usr/bin/cmake --install /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/cpp_interfaces

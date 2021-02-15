@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target pub[0m
-[ 50%] Built target sub
-[ 66%] Built target chat
-[ 83%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m

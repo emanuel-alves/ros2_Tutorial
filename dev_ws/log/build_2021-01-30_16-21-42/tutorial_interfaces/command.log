@@ -1,2 +1,0 @@
-Invoking command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces -- -j8 -l8
-Invoked command in '/mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces' returned '2': _=/usr/bin/env /usr/bin/cmake --build /mnt/HomeWin/projetos/tutorial_ros2/dev_ws/build/tutorial_interfaces -- -j8 -l8
